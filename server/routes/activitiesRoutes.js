@@ -5,9 +5,9 @@ const activitiesRouter = express.Router();
 
 activitiesRouter.post('/activities', async (req, res) => {
     try {
+        console.log("backend activities");
         const activityData = req.body;
         const activity = new Activity(activityData);
-        console.log("activity session");
         await activity.save();
         res.status(201).json({ message: 'Activity saved successfully', activity });
     } catch (error) {

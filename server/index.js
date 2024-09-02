@@ -3,6 +3,7 @@ import cors from 'cors';
 import activitiesRoutes from './routes/activitiesRoutes.js';
 import connectDB from './db.js'; 
 import browserRouter from './routes/browserRouter.js';
+import searchQueryRouter from './routes/searchRouter.js';
 connectDB();
 
 const app = express();
@@ -15,8 +16,10 @@ app.get('/', (req, res) => {
     res.send('running');
 });
 
+
 app.use('/api', activitiesRoutes);
 app.use('/api', browserRouter);
+app.use('/api', searchQueryRouter);
 
 
 app.listen(PORT, () => {

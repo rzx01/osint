@@ -22,7 +22,10 @@ const searchQuerySchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  result_clicks: [String]
+  result_clicks: {
+    type: [String], 
+    default: []
+  }
 });
 
-export default mongoose.model('search_query', searchQuerySchema);
+export default mongoose.model('SearchQuery', searchQuerySchema);
