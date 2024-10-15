@@ -10,7 +10,6 @@
         "scripting",
         "webNavigation",
         "webRequest",
-        "webRequestBlocking",
         "activeTab"
     ],
     "host_permissions": [

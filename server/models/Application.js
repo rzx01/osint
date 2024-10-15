@@ -30,4 +30,4 @@ const applicationUsageSchema = new mongoose.Schema({
   }
 });
 
-export default mongoose.model('application_usage', applicationUsageSchema);
+export default mongoose.model('applications', applicationUsageSchema);

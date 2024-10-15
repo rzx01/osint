@@ -31,4 +31,4 @@ const activitySchema = new mongoose.Schema({
   }
 });
 
-export default mongoose.model('activity', activitySchema);
+export default mongoose.model('activities', activitySchema);

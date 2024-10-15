@@ -47,7 +47,7 @@ function endActivity(url) {
         if (searchQuery) {
             const queryData = {
                 query_id: 'query_' + Date.now(),
-                user_id: 'user_00001',
+                user_id: userId,
                 timestamp: new Date().toISOString(),
                 search_engine: appId,
                 query_text: searchQuery,
@@ -58,7 +58,7 @@ function endActivity(url) {
         } else {
             const activity = {
                 activity_id: 'activity_' + Date.now(),
-                user_id: 'user_00001',
+                user_id: userId,
                 app_usage_id: appId,
                 begin: activityStartTime,
                 end: new Date(),
@@ -119,7 +119,7 @@ chrome.tabs.onRemoved.addListener((tabId, removeInfo) => {
 let sessionStartTime = null;
 let currentSessionId = null;
 let appUsage = {};
-const userId = 'user_00001'; 
+const userId = 'rachit'; 
 
 function generateSessionId() {
     return 'session_' + Date.now();

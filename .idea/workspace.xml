@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d51f470-ee0d-4c55-bdbd-537b8ac0aa10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/preprocessing/hope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/amazon/amazon.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/amazon/amazon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/amazonprime/amazonprime.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/amazonprime/newwebsc2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/netflix/netflix.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/netflix/webs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/reddit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/twitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/webtoon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/youtube.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Application.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/activitiesRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/activitiesRoutes.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2nU7igPsxOjKVIeO4zTUDxcdOvz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d51f470-ee0d-4c55-bdbd-537b8ac0aa10" name="Changes" comment="" />
+      <created>1729015932125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729015932125</updated>
+    </task>
+    <servers />
+  </component>
+</project>
